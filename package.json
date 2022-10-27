@@ -1,8 +1,10 @@
 {
     "scripts": {
-        "fibonacci": "delegua ./fibonacci.delegua"
+        "fibonacci": "ts-node ./node_modules/@designliquido/delegua/index.js ./fibonacci.delegua"
     },
     "dependencies": {
-        "@designliquido/delegua": "latest"
+        "@designliquido/delegua": "latest",
+        "ts-node": "latest",
+        "typescript": "^4.8.4"
     }
 }
