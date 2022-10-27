@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "fibonacci": "delegua ./fibonacci.delegua"
+    },
+    "dependencies": {
+        "@designliquido/delegua": "latest"
+    }
+}
