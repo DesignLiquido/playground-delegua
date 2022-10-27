@@ -1,6 +1,8 @@
 {
     "scripts": {
-        "fibonacci": "ts-node ./node_modules/@designliquido/delegua/index.js ./fibonacci.delegua"
+        "delegua": "ts-node ./node_modules/@designliquido/delegua/index.js",
+        "egua-classico:bhaskara": "yarn delegua -d egua ./bhaskara.egua",
+        "fibonacci": "yarn delegua ./fibonacci.delegua"
     },
     "dependencies": {
         "@designliquido/delegua": "latest",
