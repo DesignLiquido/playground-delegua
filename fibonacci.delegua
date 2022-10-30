@@ -14,15 +14,7 @@ funcao fibonacci(n) {
   retorna(f1 + f2);
 }
 
-var a = fibonacci(0);
-escreva(a);
-a = fibonacci(1);
-escreva(a);
-a = fibonacci(2);
-escreva(a);
-a = fibonacci(3);
-escreva(a);
-a = fibonacci(4);
-escreva(a);
-a = fibonacci(5);
-escreva(a);
+para (var i = 0; i < 10; i = i + 1) {
+  var a = fibonacci(i);
+  escreva(a);
+}
